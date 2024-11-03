@@ -1,0 +1,122 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Brian"
+  subtitle: "Backend Developer @Pijar Sekolah"
+  description: >
+    A person that passionate about Backend Development. Currently work at <a target='_blank' href='https://pijarsekolah.id/'>pijarsekolah.id</a> Digital Platform that provide service for students and teachers in Indonesia. 
+    <br>
+    My background is primarily as a backend developer. I have 4 years experience working with medium to big teams. Providing performant API that can handle up to 60k concurrent users
+    <br>
+    Meanwhile I have take some hobby or side project like selling API at <a target='_blank' href='https://rapidapi.com/user/brian.rofiq'>RapidAPI</a>
+  image:
+    x: "images/showcase/showcase.png"
+    _2x: "images/showcase/showcase@2x.png"
+  imageMobile:
+    x: "images/showcase/showcase-mobile.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/brillant-djaka-irfanuddin-rofiq-3245ba17b/"
+
+    - icon: "github"
+      URL: "https://github.com/brilliantDjaka"
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: >
+    <p class="lead">
+      I have passion and experience in Sofware Development especially backend. I am a technical person that mostly quiet and focus, but can communicate well with big teams.
+    </p>
+    <p class="lead">
+      
+      <br>
+      On daily basis, I write restfull API with nodejs, mongodb, redis and kafka that can handle massive users (60k concurrent).
+      I have experience maintaining repositories, upgrading dependency and fixing security issues
+      <br>
+      I worked with big teams, communicating design with UI/UX engineer making sure the design is correct and doesn't have missing journey. Working with operation teams to handle user requests and solve reported bugs. Negotiating feature / tasks with product manager to keep inline with timeline
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/brillant-djaka-irfanuddin-rofiq-3245ba17b/"
+  image:
+    x: "images/who-am-i/user-picture.png"
+    _2x: "images/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Binus University"
+      year: "2020-2024"
+      degree: "Bachelor of Information Systems"
+    - university: "Telkom Malang Vocational High School"
+      year: "2017-2020"
+      degree: "Programming"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: >
+   Currently has 4 years of experience as a Backend Engineer
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/brillant-djaka-irfanuddin-rofiq-3245ba17b/"
+  # TODO: BIKIN CV / RESUME
+  # button2:
+  #   icon: "icon-profile-fill"
+  #   btnText: "Download My Resume"
+  #   URL: "#"
+
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: false 
+  
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "https://formspree.io/f/mwpklrjr"
+    method: "POST"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  # TODO: Bikin NO HP Bisnis
+  # phone:
+  #   title: "Phone Number"
+  #   number: "+555 (11) 123 44 55"
+  email:
+    title: "Email"
+    email: '<a href="mailto:mail@brilliantdjaka.dev">mail@brilliantdjaka.dev</a>'
+  address:
+    title: "Address"
+    address: "Jakarta, Indonesia"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
