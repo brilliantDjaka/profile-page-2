@@ -1,7 +1,10 @@
+head:
+  title: "Brilliant Djaka Personal Website"
+  description: "Backend Developer @Pijar Sekolah"
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Brian"
+  title: "Hello, I'm Brian"
   subtitle: "Backend Developer @Pijar Sekolah"
   description: >
     A person that passionate about Backend Development. Currently work at <a target='_blank' href='https://pijarsekolah.id/'>pijarsekolah.id</a> Digital Platform that provide service for students and teachers in Indonesia. 
